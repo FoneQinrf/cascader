@@ -17,4 +17,4 @@ wxml
 
 效果图
 
-![img](http://www.qinrf.com/img/42d1bdff-2a9e-4618-bb99-0c4a4ccbec96.gif)
+![image](http://www.qinrf.com/img/42d1bdff-2a9e-4618-bb99-0c4a4ccbec96.gif)
