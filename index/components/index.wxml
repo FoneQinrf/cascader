@@ -1,0 +1,23 @@
+<!--index/components/index.js.wxml-->
+<!-- innerType 1 禁用  2 开启 -->
+<view bindtap='_dianji' class='color-config-999 alert'>{{innerStr=='' ? '请选择地址' : innerStr}}</view>
+<view class="cascade_box" animation="{{animationData}}">
+  <view class="cascade_hei"></view>
+   <view class="cascade_find">
+        <view class="cascade_header">
+            <text class='quxiao color-config-999' bindtap="_close">取消</text>
+            <text class="queren color-config" bindtap="_confirm">确认</text>
+        </view>
+        <picker-view indicator-style="height: 80rpx;" style="width: 100%; height: 400rpx;" value="{{value}}" bindchange="_bindChange">
+            <picker-view-column>
+            <view wx:for="{{province}}" wx:key='this' data-item='{{item}}' style="line-height: 80rpx;text-align:center;">{{item.name}}</view>
+            </picker-view-column>
+            <picker-view-column>
+            <view wx:for="{{province[value[0]].children}}" wx:key='this' style="line-height: 80rpx;text-align:center;">{{item.name}}</view>
+            </picker-view-column>
+            <picker-view-column>
+            <view wx:for="{{province[value[0]].children[value[1]].children}}" wx:key='this' style="line-height: 80rpx;text-align:center;">{{item.name}}</view>
+            </picker-view-column>
+        </picker-view>
+    </view>
+</view>

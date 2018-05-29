@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "picker-area": "./components/index"
+  }
+}
