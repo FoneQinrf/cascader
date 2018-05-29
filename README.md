@@ -14,3 +14,7 @@ wxml
 ```
 
 [个人博客](http://www.qinrf.com) 
+
+效果图
+
+![效果图](http://www.qinrf.com/img/42d1bdff-2a9e-4618-bb99-0c4a4ccbec96.gif)
